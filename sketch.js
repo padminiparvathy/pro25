@@ -9,7 +9,7 @@ var world;
 
 
 function setup() {
-	createCanvas(1600, 700);
+	createCanvas(1300, 700);
 	rectMode(CENTER);
 
 
@@ -17,8 +17,8 @@ function setup() {
 	world = engine.world;
 	
 	paperObject=new paper(200,450,70);
-	groundObject=new ground(width/2,670,width,20);
-	dustbinObj=new dustbin(1200,650);
+	groundObject=new ground(width/2,570,width,20);
+	dustbinObj=new dustbin(1200,550);
 	//Create a Ground
 	
 
@@ -26,7 +26,7 @@ function setup() {
 	  element: document.body,
 	  engine: engine,
 	  options: {
-	    width: 1600,
+	    width: 900,
 	    height: 700,
 	    wireframes: false
 	  }
